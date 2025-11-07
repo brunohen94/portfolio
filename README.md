@@ -23,7 +23,7 @@ Este portfólio vai além de um simples HTML/CSS e inclui diversas funcionalidad
 
 ## 🛠️ Tecnologias Utilizadas (Neste Projeto)
 
-O portfólio em si foi construído com "código humano", limpo e moderno, utilizando:
+O portfólio em si foi construído limpo e moderno, utilizando:
 
 * **HTML5**
 * **CSS3:** (Layouts com Flexbox e Grid, Variáveis CSS, Media Queries)
