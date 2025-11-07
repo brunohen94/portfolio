@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Henrique - Portfólio</title>
+
+    <meta name="description" content="Portfólio de Bruno Henrique, desenvolvedor de software focado em back-end e front-end.">
+    <meta name="author" content="Bruno Henrique">
+
+    <meta property="og:title" content="Bruno Henrique - Portfólio de Desenvolvedor">
+    <meta property="og:description" content="Conheça meus projetos em Python, Java, JavaScript, TypeScript e mais.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brunohenrique.vercel.app">
+    <meta property="og:image" content="https://brunohenrique.vercel.app/PrintPortfolio.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bruno Henrique - Portfólio de Desenvolvedor">
+    <meta name="twitter:description" content="Conheça meus projetos em Python, Java, JavaScript, TypeScript e mais.">
+    <meta name="twitter:image" content="https://brunohenrique.vercel.app/PrintPortfolio.png">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="LogoBH.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="LogoBH.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="LogoFavicoon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+
+    <div id="particles-background"></div>
+
+    <header class="main-header">
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link" data-key="navAbout">Sobre</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link" data-key="navProjects">Projetos</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-key="navContact">Contato</a></li>
+            </ul>
+            <div class="language-selector">
+                <a href="#" class="lang-link active-lang" data-lang="pt">PT</a>
+                <span>/</span>
+                <a href="#" class="lang-link" data-lang="en">EN</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title" data-key="heroTitle">Olá, eu sou Bruno.</h1>
+                <p class="hero-subtitle" data-key="heroSubtitle"></p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button" data-key="heroButton">Veja meu trabalho</a>
+                    <a href="seu-curriculo.pdf" download="Bruno-Henrique-Curriculo.pdf" class="cta-button cta-button-outline" data-key="heroButtonResume">Meu Currículo</a>
+                </div>
+                <div class="hero-social-links">
+                    <a href="https://github.com/brunohen94" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/brunohenrique-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2 class="section-title revealable" data-key="aboutTitle">Sobre mim</h2>
+            <div class="about-container">
+                <div class="about-image-wrapper revealable">
+                    <img src="Perfil.JPG" alt="Perfil" class="profile-photo"> 
+                </div>
+                <div class="about-text">
+                    <p data-key="aboutP1">
+                        Sou um desenvolvedor Full Stack que gosta de códigos limpos e gosta de promover a melhor experiência ao usuário
+                    </p>
+                    <p data-key="aboutP2">
+                        Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:
+                    </p>
+                    <ul class="skills-list">
+                        <li><i class="devicon-python-plain"></i> Python</li>
+                        <li><i class="devicon-javascript-plain"></i> JavaScript</li>
+                        <li><i class="devicon-java-plain"></i> Java</li>
+                        <li><i class="devicon-typescript-plain"></i> TypeScript</li>
+                        <li><i class="devicon-html5-plain"></i> HTML & CSS</li>
+                        <li><i class="devicon-mongodb-plain"></i> MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2 class="section-title revealable" data-key="projectsTitle">Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card revealable">
+                    <div class="project-info">
+                        <h3 class="project-title" data-key="project1Title">Centro Comunitário API</h3>
+                        <p class="project-description" data-key="project1Desc">API para gerenciamento de centros comunitários em emergências.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/brunohen94/comunity-center-api" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card revealable">
+                    <div class="project-info">
+                        <h3 class="project-title" data-key="project2Title">Organizador de Arquivo Python</h3>
+                        <p class="project-description" data-key="project2Desc">Script para organizar por catagorias os arquivos do diretório.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">GitHub</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2 class="section-title revealable" data-key="contactTitle">Entre em contato!</h2>
+            <div class="contact-content">
+                <p data-key="contactP">
+                    Busco novos desafios e estou sempre aberto a conexões. Se você tem um projeto em mente, uma pergunta ou simplesmente quer iniciar uma conversa, ficarei feliz em ouvir. Sinta-se à vontade para me enviar uma mensagem!
+                </p>
+                <form action="https://formspree.io/f/manawwap" method="POST" class="contact-form revealable">
+                    <div class="form-group">
+                        <label for="name" data-key="contactFormName">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-key="contactFormEmail">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-key="contactFormMessage">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button" data-key="contactFormButton">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Bruno Henrique. All Rights Reserved.</p>
+        <div class="footer-social-links">
+            <a href="https://github.com/brunohen94" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/brunohenrique-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <a href="#home" id="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/i18next@23/i18next.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="particles.js"></script>
+</body>
+</html>
