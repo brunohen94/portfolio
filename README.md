@@ -1,6 +1,6 @@
 # Portfólio Pessoal de Bruno Henrique
 
-[![Deploy na Vercel](https://img.shields.io/badge/Acessar-Live%20Demo-brightgreen?style=for-the-badge)](https://brunohenrique.vercel.app)
+[![Deploy na Vercel](https://img.shields.io/badge/Acessar-Live%20Demo-brightgreen?style=for-the-badge)](https://brunohen94-portfolio.vercel.app/)
 
 Este é o repositório do meu portfólio pessoal, um site estático moderno e totalmente responsivo construído para apresentar minhas habilidades, projetos e informações de contato a recrutadores e à comunidade tech.
 
