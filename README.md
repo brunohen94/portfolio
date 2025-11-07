@@ -53,5 +53,5 @@ Como é um projeto estático, não há necessidade de build ou instalação de p
 ## 📬 Contato
 
 **Bruno Henrique**
-* **LinkedIn:** [linkedin.com/in/brunohenrique-dev](https://www.linkedin.com/in/brunohenrique-dev/)
+* **LinkedIn:** [https://www.linkedin.com/in/brunohen94/](https://www.linkedin.com/in/brunohen94/)
 * **Email:** brunohenriquerf94@gmail.com
