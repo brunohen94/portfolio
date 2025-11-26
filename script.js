@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "heroButton": "View My Work",
                 "heroButtonResume": "My Resume",
                 "aboutTitle": "About Me",
-                "aboutP1": "I am a Full Stack developer who enjoys clean code and promoting the best user experience.",
+                "aboutP1": "    I am a Full Stack developer who enjoys clean code and promoting the best user experience.",
                 "aboutP2": "Here are a few technologies I've been working with recently:",
                 "projectsTitle": "My Projects",
                 "project1Title": "Community Center API",
